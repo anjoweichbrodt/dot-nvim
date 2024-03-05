@@ -1,13 +1,8 @@
 return {
-  "folke/tokyonight.nvim",
-  lazy = true,
-  opts = {
-    style = "night",
-    styles = {
-      functions = {},
+  {
+    "LazyVim/LazyVim",
+    opts = {
+      colorscheme = "teal-moon",
     },
-    on_colors = function(colors)
-      -- colors.bg = "#24283b"
-    end,
   },
 }
